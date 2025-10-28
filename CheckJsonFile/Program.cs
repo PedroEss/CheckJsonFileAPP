@@ -32,7 +32,7 @@ namespace CheckJsonFile
             };
             
 
-            var contents = Directory.GetFiles(@"C:\Users\PiotrSkiba\Desktop\L3\Brain\INCE\INC3499874\la_fusion_cost").Select(f => new
+            var contents = Directory.GetFiles(@"<path>").Select(f => new
             {
                 Path = f,
                 Contents = File.ReadAllText(f)
